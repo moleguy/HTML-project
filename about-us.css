@@ -1,0 +1,318 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+* {
+    font-family: "Space Grotesk", sans-serif;
+}
+
+html,
+body {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #faf5ef;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    opacity: 1;
+    transition: opacity 1s ease-out;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    /* margin-left: 0.8rem; */
+    /* padding-left: 15rem; */
+    margin-top: 2rem;
+    margin-left: 2rem;
+    text-align: center;
+    margin: 30px;
+}
+
+header .content {
+    /* margin-left: 1rem; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+header .main-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header .main-content img {
+    max-width: 40px;
+    /* height: 30px; */
+    height: auto;
+    user-select: none;
+    /* margin-right: 15px; */
+    /* padding-left: 2rem; */
+    transition: max-width 0.3s ease;
+}
+
+header .name {
+    /* background-color: black; */
+    /* color: white; */
+    /* font-family: "Unbounded", sans-serif; */
+    /* font-family: "Happy Monkey", sans-serif; */
+    cursor: default;
+    padding-left: 0.5rem;
+    border-radius: 10px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0;
+    transition: font-size 0.3s ease;
+}
+
+/* About Section */
+
+.main-section {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 30px;
+    gap: 2rem;
+}
+
+.description{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+}
+
+.description #asd{
+    padding: 20px;
+}
+
+.description p{
+    margin: 0;
+}
+
+.description #asp{
+    padding: 2rem;
+    margin: 0 10rem 0 5rem;
+    /* background-color: gray; */
+}
+
+.about-products{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Links Section */
+
+.links-content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex: 1;
+    /* padding-right: 15rem; */
+    /* border-left: 9px black solid; */
+}
+
+.links-content ul {
+    /* display: flex; */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    /* flex: 1; */
+    /* border-top: 2px black solid; */
+    /* margin-left: 5rem; */
+    /* margin-right: 13rem; */
+}
+
+.links-content ul li {
+    display: flex;
+    justify-content: flex-end;
+    text-align: end;
+    margin-bottom: 5rem;
+    /* margin-bottom: 10rem; */
+}
+
+.links-content a {
+    text-decoration: none;
+    font-size: 40px;
+    color: #000;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin: 8px;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+    opacity: 50%;
+}
+
+.footer-content p {
+    color: gray;
+}
+
+.footer-content a {
+    color: gray;
+    text-decoration: none;
+}
+
+
+.home {
+    display: flex;
+    position: relative;
+
+    &:after,
+    &:before {
+        content: "";
+        width: 20px;
+        border: 0 solid black;
+        transition: all 1.2s;
+        position: absolute;
+    }
+
+    &:before {
+        bottom: 0;
+        right: 1px;
+        border-bottom: 4px solid black;
+    }
+
+    &:hover {
+
+        &:after,
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+/* hover about */
+.about {
+    display: flex;
+    /* margin-top: 15rem; */
+    position: relative;
+
+    &:after,
+    &:before {
+        content: "";
+        width: 20px;
+        border: 0 solid black;
+        transition: all 1.2s;
+        position: absolute;
+    }
+
+    &:before {
+        bottom: 0;
+        right: 1px;
+        border-bottom: 4px solid black;
+    }
+
+    &:hover {
+
+        &:after,
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+/* hover arts */
+.arts {
+    position: relative;
+    /* margin-top: 15rem; */
+
+    &:after,
+    &:before {
+        content: "";
+        width: 20px;
+        border: 0 solid black;
+        transition: all 1.2s;
+        position: absolute;
+    }
+
+    &:before {
+        bottom: 0;
+        right: 1px;
+        border-bottom: 4px solid black;
+    }
+
+    &:hover {
+
+        &:after,
+        &:before {
+            width: 100%;
+        }
+    }
+}
+
+/* hover contact */
+.shop {
+    position: relative;
+    /* margin-top: 15rem; */
+
+    &:after,
+    &:before {
+        content: "";
+        width: 20px;
+        border: 0 solid black;
+        transition: all 1.2s;
+        position: absolute;
+    }
+
+    &:before {
+        bottom: -5px;
+        right: 1px;
+        border-bottom: 4px solid black;
+    }
+
+    &:hover {
+
+        &:after,
+        &:before {
+
+            width: 100%;
+        }
+    }
+}
+
+/* Desktop Responsiveness */
+
+/* @media screen and (min-width: 1025px) {
+    .main-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header .main-content img {
+        max-width: 30px;
+    }
+
+    header .name {
+        cursor: default;
+        padding-left: 0.5rem;
+        border-radius: 10px;
+        font-size: 25px;
+        font-weight: 600;
+        margin: 0;
+    }
+} */

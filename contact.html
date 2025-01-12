@@ -4,46 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
 </head>
 <body>
-    <div>
-        <table>
-            <tr>
-                <td>
-                    <h1>
-                        &nbsp;MANISH ARTS
-                    </h1>
-                </td>
-            </tr>
-        </table>
-    </div><br><br>
+    <header>
+        <div class="content">
+            <div class="main-content">
+                <img src="icons/Group 1.png" alt="M-logo">
+                <h1 class="name">MANISH ARTS</h1>
+            </div>
+        </div>
+    </header>
     
-    <table>
-        <tr>
-            <td>
-                <h2><a href="home.html">Home</a></h2>
-            </td>
-            <td>
-                <h2><a href="about-us.html">About Us</a></h2>
-            </td>
-            <td>
-                <h2><a href="contact.html">Contact</a></h2>
-            </td>
-            <td>
-                <h2><a href="shop.html">Shop</a></h2>
-            </td>
-        </tr>
-    </table><br><br>
+    <section id="homepage">
+        <div class="main-section">
+            <div class="input-section">
+                <label for="full-name">Full Name</label>
+                <input type="text" id="full-name" placeholder="Enter your full name">
+                <label for="pn">Phone Number</label>
+                <input type="tel" id="pn" placeholder="Enter your phone number">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Enter you email address">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" placeholder="Enter your subject">
+                <label for="message">Message</label>
+                <textarea id="message"></textarea>
+            </div>
+    
+            <!-- <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label> -->
+    
+            <div class="links-content">
+                <ul>
+                    <li><a class="home" href="home.html">Home</a></li>
+                    <li><a class="about" href="about-us.html">About</a></li>
+                    <li><a class="contact" href="contact.html">Contact</a></li>
+                    <li><a class="shop" href="shop.html">Shop</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-
-    <table>
+    <!-- <table>
         <tr>
             <td><label for="full-name">Full Name:</label></td>
-            <td><input type="text" id="full-name"></td>
+            <td></td>
         </tr>
         <tr>
             <td><label for="pn">Phone Number:</label></td>
-            <td><input type="tel" id="pn"></td>
+            <td></td>
         </tr>
         <tr>
             <td><label for="email">Email:</label></td>
@@ -57,22 +70,16 @@
             <td><label for="message">Message:</label></td>
             <td><textarea id="message"></textarea></td>
         </tr>
-    </table>
-    <table>
-        <tr>
-            <td>
-                <a href="mailto:tamangmanish446@gmail.com">
-                    <h2>tamangmanish446@gmail.com</h2>
-                </a>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <p>All Rights Reserved.</p>
-                <p>Copyright &copy; 2024 Manish Art Shop</p>
-            </td>
-        </tr>
-    </table>
+    </table> -->
+    
+    <div class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Manish Art Shop</p>
+            <a href="mailto:tamangmanish446@gmail.com">
+                tamangmanish446@gmail.com
+            </a>
+        </div>
+    </div>
 
 </body>
 </html>
