@@ -123,13 +123,13 @@ body {
 
 .about-art #asd {
     /* padding: 20px; */
-    font-size: 30px;
+    font-size: 40px;
     /* font-weight: 500; */
 }
 
 
 .about-art #asp {
-    font-size: 20px;
+    font-size: 25px;
     text-align: justify;
 }
 
@@ -164,11 +164,11 @@ body {
 }
 
 .about-products #asd {
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .about-products #asp {
-    font-size: 20px;
+    font-size: 22px;
     text-align: justify;
 }
 
