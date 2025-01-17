@@ -404,7 +404,7 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0 30px;
-    border-top: 2px gray solid;
+    border-top: 2px black solid;
 }
 
 .footer-content {
@@ -412,15 +412,15 @@ body {
     flex-direction: column;
     text-align: center;
     margin: 30px;
-    opacity: 50%;
+    /* opacity: 50%; */
 }
 
 .footer-content p {
-    color: gray;
+    color: black;
 }
 
 .footer-content a {
-    color: gray;
+    color: black;
     text-decoration: none;
     margin: 5px 0;
 }
@@ -453,11 +453,7 @@ body {
     /* opacity: 50%; */
     margin: 30px;
     text-align: center;
-    color: gray;
-}
-
-.links .connect {
-    opacity: 50%;
+    color: black;
 }
 
 .quick-links {
